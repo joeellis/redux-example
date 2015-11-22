@@ -1,0 +1,17 @@
+// respond to pre-set screen widths
+respond-to(screen-size)
+  if screen-size == small-screen
+    @media only screen and (max-width: 42.5em)
+      {block}
+  if screen-size == small-medium-screen
+    @media only screen and (max-width: 52.5em)
+      {block}
+  if screen-size == medium-screen
+    @media only screen and (max-width: 65em)
+      {block}
+  if screen-size == medium-large-screen
+    @media only screen and (max-width: 85em)
+      {block}
+  if screen-size == large-screen
+    @media only screen and (max-width: 100em)
+      {block}

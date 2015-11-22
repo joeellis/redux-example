@@ -1,0 +1,11 @@
+# platform oddities
+.DS_Store
+
+# logs
+npm-debug.log
+
+# packages
+node_modules
+
+#other
+.sublime-project
